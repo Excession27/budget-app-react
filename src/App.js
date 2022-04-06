@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Header } from './components/Header/Header';
 import { ListView } from './components/ListView/ListView';
 import { Input } from './components/Input/Input';
