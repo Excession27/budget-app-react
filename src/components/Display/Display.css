@@ -1,0 +1,36 @@
+.display, .display div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.display {
+    width: 15rem;
+    padding: 0 15px;
+    height: 3rem;
+    margin: 10px 10px;
+}
+
+.display div {
+    width: 4rem;
+    line-height: 1.2rem;
+}
+
+.display div :nth-child(2) {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    background-color: aqua;
+    color: black;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.orange-bg {
+    background-color: gold;
+}
+
+.blue-bg {
+    background-color: cornflowerblue;
+}
+
